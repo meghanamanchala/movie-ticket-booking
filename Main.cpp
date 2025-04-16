@@ -135,7 +135,7 @@ int main() {
         }
 
         system.createBooking(customer, ticket);
-        delete customer; 
+        delete customer; // Only ticket is managed by system
     }
 
     return 0;
